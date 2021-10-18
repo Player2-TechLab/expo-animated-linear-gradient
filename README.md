@@ -1,5 +1,6 @@
-# react-native-animated-linear-gradient
+# expo-animated-linear-gradient
 Animated linear gradient as background animation or other.
+This version with some fixes of useNativeDriver and adaptation to work in expo.
 
 
 ## Example
@@ -10,9 +11,9 @@ Animated linear gradient as background animation or other.
 
 ## Install
 
-1. install [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient),  run `npm install react-native-linear-gradient --save` 
-2. run `react-native link react-native-linear-gradient`
-3. run `npm install react-native-animated-linear-gradient --save`
+1. install [react-native-linear-gradient](https://github.com/evertoont/expo-animated-linear-gradient)
+2. `expo install expo-linear-gradient`
+3. `yarn add https://github.com/evertoont/expo-animated-linear-gradient`
 
 
 ## Use
