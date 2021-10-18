@@ -31,6 +31,7 @@
     "react-native-linear-gradient": "^2.3.0"
   },
   "dependencies": {
+    "expo-linear-gradient": "^9.2.0",
     "prop-types": "^15.6.0",
     "rgb2hex": "^0.1.0"
   }

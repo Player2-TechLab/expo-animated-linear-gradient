@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { StyleSheet, StatusBar, Dimensions, View, Animated, Easing } from 'react-native';
-import NativeLinearGradient from 'react-native-linear-gradient';
+import { LinearGradient as NativeLinearGradient } from "expo-linear-gradient";
 import rgb2hex from 'rgb2hex';
 
 // const {height, width} = Dimensions.get('window');
@@ -24,7 +24,6 @@ class LinearGradient extends Component {
   }
 }
 Animated.LinearGradient = Animated.createAnimatedComponent(LinearGradient)
-Animated.useNativeDriver = true
 // Animated.NativeLinearGradient = Animated.createAnimatedComponent(NativeLinearGradient)
 
 export const presetColors = {
@@ -84,7 +83,8 @@ class AnimatedGradient extends Component {
         return Animated.timing(animatedColor, {
           toValue: customColors.length,
           duration: customColors.length * speed,
-          easing: Easing.linear
+          easing: Easing.linear,
+          useNativeDriver: this.props.useNativeDriver || false,
         })
       })
     )
