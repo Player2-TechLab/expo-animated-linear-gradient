@@ -1,5 +1,5 @@
 {
-  "name": "react-native-animated-linear-gradient",
+  "name": "expo-animated-linear-gradient",
   "version": "1.2.2",
   "description": "Animated linear gradient as background animation or other.",
   "main": "index.js",
