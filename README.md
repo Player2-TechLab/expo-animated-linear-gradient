@@ -21,7 +21,7 @@ This version with some fixes of useNativeDriver and adaptation to work in expo.
 ```javascript
 import React, { Component } from 'react';
 import { AppRegistry, Text } from 'react-native';
-import AnimatedLinearGradient, {presetColors} from 'react-native-animated-linear-gradient'
+import AnimatedLinearGradient, { presetColors } from "expo-animated-linear-gradient";
 
 class HelloWorldApp extends Component {
   render() {
