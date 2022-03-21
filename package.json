@@ -32,5 +32,8 @@
     "expo-linear-gradient": "~11.0.3",
     "prop-types": "^15.6.0",
     "rgb2hex": "^0.1.0"
+  },
+  "resolutions": {
+    "expo-linear-gradient": "~11.0.0"
   }
 }
