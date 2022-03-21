@@ -5,15 +5,14 @@ This version with some fixes of useNativeDriver and adaptation to work in expo.
 
 ## Example
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/heineiuo/react-native-animated-linear-gradient/raw/master/.github/capture.gif" width=375 height=688>
 <br>
 
 ## Install
 
-1. install [react-native-linear-gradient](https://github.com/evertoont/expo-animated-linear-gradient)
-2. `expo install expo-linear-gradient`
-3. `yarn add https://github.com/evertoont/expo-animated-linear-gradient`
+1. `expo install expo-linear-gradient`
+2. `yarn add https://github.com/evertoont/expo-animated-linear-gradient`
 
 
 ## Use
